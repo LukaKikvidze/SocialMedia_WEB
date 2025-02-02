@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Professionals Directory</title>
+    <link rel="stylesheet" href="/Css/globals.css">
+    <link rel="stylesheet" href="/Css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <div class="logo-icon"></div>
+                <h1>MedDirectory</h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" class="search-input" placeholder="ძიება...">
+            </div>
+        </nav>
+    </header>
+
+    <main>
+      <div class="stories-container">
+        <!-- Add Story -->
+        <div class="story-item">
+            <div class="story-content">
+                <img src="https://picsum.photos/120/200?random=1" class="story-image" alt="Story">
+                <div class="add-story">
+                    <div class="plus-icon">+</div>
+                </div>
+                <div class="story-author">Your Story</div>
+            </div>
+        </div>
+
+        <!-- Friend Stories -->
+        <div class="story-item">
+            <div class="story-content">
+                <img src="https://picsum.photos/120/200?random=2" class="story-image" alt="Story">
+                <img src="https://i.pravatar.cc/40?img=1" class="user-avatar" alt="User">
+                <div class="story-author">ნინო ნათენაძე</div>
+            </div>
+        </div>
+
+        <div class="story-item">
+            <div class="story-content">
+                <img src="https://picsum.photos/120/200?random=3" class="story-image" alt="Story">
+                <img src="https://i.pravatar.cc/40?img=2" class="user-avatar" alt="User">
+                <div class="story-author">გიორგი ლაშხი</div>
+            </div>
+        </div>
+
+        <div class="story-item">
+            <div class="story-content">
+                <img src="https://picsum.photos/120/200?random=4" class="story-image" alt="Story">
+                <img src="https://i.pravatar.cc/40?img=3" class="user-avatar" alt="User">
+                <div class="story-author">თამარ ჭუმბურიძე</div>
+            </div>
+        </div>
+
+        <div class="story-item">
+            <div class="story-content">
+                <img src="https://picsum.photos/120/200?random=5" class="story-image" alt="Story">
+                <img src="https://i.pravatar.cc/40?img=4" class="user-avatar" alt="User">
+                <div class="story-author">ლევან ბერიძე</div>
+            </div>
+        </div>
+    </div>
+
+        <div class="add-news">
+            <h2>დაამატე სიახლე...</h2>
+        </div>
+
+        <!-- Dentists Section -->
+        <section class="category-section">
+            <h2 class="category-title">სტომატოლოგები</h2>
+            <div class="professionals-grid">
+                <!-- Card 1 -->
+                <article class="professional-card">
+                    <div class="card-header">
+                        <div class="avatar"></div>
+                        <div class="profile-info">
+                            <h3 class="professional-name">დრ. ნინო ხორნაბული</h3>
+                            <button class="follow-button">Follow</button>
+                        </div>
+                    </div>
+                    <img src="https://picsum.photos/400/300?random=1" alt="Dentist" class="card-image">
+                    <div class="rating-stars">
+                        ★★★★★
+                    </div>
+                    <div class="card-actions">
+                        <button class="action-button">💬</button>
+                        <button class="action-button">📞</button>
+                        <button class="action-button">📌</button>
+                    </div>
+                </article>
+
+                <!-- Card 2 -->
+                <article class="professional-card">
+                    <div class="card-header">
+                        <div class="avatar"></div>
+                        <div class="profile-info">
+                            <h3 class="professional-name">დრ. გიორგი ლაშხი</h3>
+                            <button class="follow-button">Follow</button>
+                        </div>
+                    </div>
+                    <img src="https://picsum.photos/400/300?random=2" alt="Dentist" class="card-image">
+                    <div class="rating-stars">
+                        ★★★★☆
+                    </div>
+                    <div class="card-actions">
+                        <button class="action-button">💬</button>
+                        <button class="action-button">📞</button>
+                        <button class="action-button">📌</button>
+                    </div>
+                </article>
+
+                <!-- Card 3 -->
+                <article class="professional-card">
+                    <div class="card-header">
+                        <div class="avatar"></div>
+                        <div class="profile-info">
+                            <h3 class="professional-name">დრ. თამარ ჭუმბურიძე</h3>
+                            <button class="follow-button">Follow</button>
+                        </div>
+                    </div>
+                    <img src="https://picsum.photos/400/300?random=3" alt="Dentist" class="card-image">
+                    <div class="rating-stars">
+                        ★★★★★
+                    </div>
+                    <div class="card-actions">
+                        <button class="action-button">💬</button>
+                        <button class="action-button">📞</button>
+                        <button class="action-button">📌</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Pediatricians Section -->
+        <section class="category-section">
+            <h2 class="category-title">პედიატრები</h2>
+            <div class="professionals-grid">
+                <!-- Card 1 -->
+                <article class="professional-card">
+                    <div class="card-header">
+                        <div class="avatar"></div>
+                        <div class="profile-info">
+                            <h3 class="professional-name">დრ. ანა ნათენაძე</h3>
+                            <button class="follow-button">Follow</button>
+                        </div>
+                    </div>
+                    <img src="https://picsum.photos/400/300?random=4" alt="Pediatrician" class="card-image">
+                    <div class="rating-stars">
+                        ★★★★☆
+                    </div>
+                    <div class="card-actions">
+                        <button class="action-button">💬</button>
+                        <button class="action-button">📞</button>
+                        <button class="action-button">📌</button>
+                    </div>
+                </article>
+
+                <!-- Card 2 -->
+                <article class="professional-card">
+                    <div class="card-header">
+                        <div class="avatar"></div>
+                        <div class="profile-info">
+                            <h3 class="professional-name">დრ. ლევან ბერიძე</h3>
+                            <button class="follow-button">Follow</button>
+                        </div>
+                    </div>
+                    <img src="https://picsum.photos/400/300?random=5" alt="Pediatrician" class="card-image">
+                    <div class="rating-stars">
+                        ★★★★★
+                    </div>
+                    <div class="card-actions">
+                        <button class="action-button">💬</button>
+                        <button class="action-button">📞</button>
+                        <button class="action-button">📌</button>
+                    </div>
+                </article>
+
+                <!-- Card 3 -->
+                <article class="professional-card">
+                    <div class="card-header">
+                        <div class="avatar"></div>
+                        <div class="profile-info">
+                            <h3 class="professional-name">დრ. მარიამ მამულია</h3>
+                            <button class="follow-button">Follow</button>
+                        </div>
+                    </div>
+                    <img src="https://picsum.photos/400/300?random=6" alt="Pediatrician" class="card-image">
+                    <div class="rating-stars">
+                        ★★★☆☆
+                    </div>
+                    <div class="card-actions">
+                        <button class="action-button">💬</button>
+                        <button class="action-button">📞</button>
+                        <button class="action-button">📌</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Traumatologists Section -->
+        <section class="category-section">
+            <h2 class="category-title">ტრამვატოლოგები</h2>
+            <div class="professionals-grid">
+                <!-- Card 1 -->
+                <article class="professional-card">
+                    <div class="card-header">
+                        <div class="avatar"></div>
+                        <div class="profile-info">
+                            <h3 class="professional-name">დრ. ზურაბ ჭანტურია</h3>
+                            <button class="follow-button">Follow</button>
+                        </div>
+                    </div>
+                    <img src="https://picsum.photos/400/300?random=7" alt="Traumatologist" class="card-image">
+                    <div class="rating-stars">
+                        ★★★★★
+                    </div>
+                    <div class="card-actions">
+                        <button class="action-button">💬</button>
+                        <button class="action-button">📞</button>
+                        <button class="action-button">📌</button>
+                    </div>
+                </article>
+
+                <!-- Card 2 -->
+                <article class="professional-card">
+                    <div class="card-header">
+                        <div class="avatar"></div>
+                        <div class="profile-info">
+                            <h3 class="professional-name">დრ. ნინო ზარქუა</h3>
+                            <button class="follow-button">Follow</button>
+                        </div>
+                    </div>
+                    <img src="https://picsum.photos/400/300?random=8" alt="Traumatologist" class="card-image">
+                    <div class="rating-stars">
+                        ★★★★☆
+                    </div>
+                    <div class="card-actions">
+                        <button class="action-button">💬</button>
+                        <button class="action-button">📞</button>
+                        <button class="action-button">📌</button>
+                    </div>
+                </article>
+
+                <!-- Card 3 -->
+                <article class="professional-card">
+                    <div class="card-header">
+                        <div class="avatar"></div>
+                        <div class="profile-info">
+                            <h3 class="professional-name">დრ. გიორგი ღონღაძე</h3>
+                            <button class="follow-button">Follow</button>
+                        </div>
+                    </div>
+                    <img src="https://picsum.photos/400/300?random=9" alt="Traumatologist" class="card-image">
+                    <div class="rating-stars">
+                        ★★★☆☆
+                    </div>
+                    <div class="card-actions">
+                        <button class="action-button">💬</button>
+                        <button class="action-button">📞</button>
+                        <button class="action-button">📌</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
